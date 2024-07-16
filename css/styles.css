@@ -171,6 +171,7 @@ address{
     background-size: cover;
     max-width: 1440px;
     max-height: 600px;
+    margin: 0 auto;
 }
 
 .hero-container{}
@@ -247,7 +248,6 @@ background-color: #404bbf
     border: 1px solid #8e8f99;
     border-radius: 4px;
     background: #f4f4fd;
-    padding: 24px 100px;
     margin-bottom: 8px;
     display: flex;
     align-items: center;
@@ -517,11 +517,7 @@ background-color: #404bbf
 }
 
 .footer-container-icons {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: center;
-    gap: 16px;
+    
 }
 
 .footer-tex-icons {
