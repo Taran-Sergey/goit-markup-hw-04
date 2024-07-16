@@ -371,7 +371,7 @@ background-color: #404bbf
 
 .team-icons-link:hover,
 .team-icons-link:focus{
-    background-color: #31d0aa;
+    background-color: #404bbf;
 }
 
 .team-icons-icons{
@@ -556,9 +556,11 @@ background-color: #404bbf
     flex-direction: row;
     border-radius: 50%;
     background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-icons-link:hover {
+.footer-icons-link:hover, 
+.footer-icons-link:focus{
     background-color: #31d0aa;
 }
 
